@@ -1,6 +1,6 @@
 # Welcome to BuildStuff Demos
 
-## >>>>>>> Demos
+>>>>>>> # Demos
 
 <style>
 .odd {
@@ -12,7 +12,6 @@
 }
 </style>
 
-## Demos
 
 {% assign counter = 0 %}
 
