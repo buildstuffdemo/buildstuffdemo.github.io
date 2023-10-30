@@ -1,11 +1,7 @@
 # Welcome to BuildStuff Demos
 
+## >>>>>>> Demos
 
-<<<<<<< Updated upstream
-=======
-## Demos
-
->>>>>>> Stashed changes
 <style>
 .odd {
   background-color: #f9f9f9;
