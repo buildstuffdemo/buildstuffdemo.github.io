@@ -5,12 +5,15 @@
 >>>>>>> ### Demos
 
 <style>
-.odd {
-  background-color: #f9f9f9;
+  
+  @keyframes colorChange {
+  0% { background-color: #f9f9f9; }
+  50% { background-color: #e0e0e0; }
+  100% { background-color: #f9f9f9; }
 }
 
-.even {
-  background-color: #e0e0e0;
+.odd, .even {
+  animation: colorChange 20s infinite;
 }
 </style>
 
