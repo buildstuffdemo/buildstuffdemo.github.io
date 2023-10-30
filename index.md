@@ -35,7 +35,7 @@
     {% unless repo.name contains 'github.io' or repo.fork %}
       {% assign row_class = counter | modulo: 2 | times: 1 | plus: 1 %}
       <li>
-        <a class="{% if row_class == 1 %}odd{% else %}even{% endif %}" href="https://buildstuffdemo.github.io/{{ repo.name }}">{{ repo.name }}</a>
+        <a class="{% if row_class == 1 %}odd{% else %}even{% endif %}" href="https://buildstuffdemo.github.io/{{ repo.name }}">{{ repo.name  | replace: '-', ' ' }}</a>
         {% if repo.description %}
           <p class="repo-description">{{ repo.description }}</p>
         {% endif %}
