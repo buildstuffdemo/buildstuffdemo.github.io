@@ -6,14 +6,24 @@
 
 <style>
   
-  @keyframes colorChange {
+@keyframes colorChange {
   0% { background-color: #f9f9f9; }
   50% { background-color: #e0e0e0; }
   100% { background-color: #f9f9f9; }
 }
 
-.odd, .even {
-  animation: colorChange 20s infinite;
+.odd {
+  animation: colorChange 15s infinite;
+}
+
+@keyframes colorChangeEven {
+  0% { background-color: #e0e0e0; }
+  50% { background-color: #f9f9f9; }
+  100% { background-color: #e0e0e0; }
+}
+
+.even {
+  animation: colorChangeEven 15s infinite;
 }
 </style>
 
