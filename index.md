@@ -1,6 +1,6 @@
-Welcome to BuildStuff Demos
+# Welcome to BuildStuff Demos
 
-## Demos
+
 <style>
 .odd {
   background-color: #f9f9f9;
@@ -10,6 +10,8 @@ Welcome to BuildStuff Demos
   background-color: #e0e0e0;
 }
 </style>
+
+## Demos
 
 {% assign counter = 0 %}
 <ul>
