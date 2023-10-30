@@ -2,7 +2,7 @@
 
 <img width="288" alt="image" src="https://github.com/buildstuffdemo/buildstuffdemo.github.io/assets/10250297/2cd5c25f-d4e1-4884-be06-4880d7d2721e">
 
->>>>>>> ### Demos
+> > > ### Demos
 
 <style>
   
@@ -27,7 +27,6 @@
 }
 </style>
 
-
 {% assign counter = 0 %}
 
 <ul>
@@ -37,7 +36,10 @@
       {% assign row_class = counter | modulo: 2 | times: 1 | plus: 1 %}
       <li>
         <a class="{% if row_class == 1 %}odd{% else %}even{% endif %}" href="https://buildstuffdemo.github.io/{{ repo.name }}">{{ repo.name }}</a>
-        <p class="repo-description">{{ repo.description }}</p>
+        {% if repo.description %}
+          <p class="repo-description">{{ repo.description }}</p>
+        {% endif %}
+        <p class="repo-updated">Last updated: {{ repo.updated_at | date: "%B %d, %Y" }}</p>
       </li>
       {% assign counter = counter | plus: 1 %}
     {% endunless %}
