@@ -1,6 +1,6 @@
 # Welcome to BuildStuff Demos
 
-<img width="288" alt="image" src="https://github.com/buildstuffdemo/buildstuffdemo.github.io/assets/10250297/2cd5c25f-d4e1-4884-be06-4880d7d2721e">
+<img width="288" alt="image" src="https://cdn.prod.website-files.com/5e9996a6531fea7d1003b18e/6414b1e3b9640fcca069b10b_Humans-General.png">
 
 > > > ### Demos
 
